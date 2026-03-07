@@ -2,7 +2,7 @@ export default function Nav({ onHover, onUnhover }) {
   return (
     <nav className="nav">
       <div className="nav-logo">
-        {"< JJ /> 👨🏾‍💻👨🏾‍🔧"}
+        {"<JJ/> 👨🏾‍💻👨🏾‍🔧"}
       </div>
       <ul className="nav-links">
         {["skills", "experience", "certs", "lab", "contact"].map((id) => (

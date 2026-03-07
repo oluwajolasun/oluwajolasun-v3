@@ -1,5 +1,7 @@
 # oluwajolasun.com — v3
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2b002f8b-de3d-40e0-b1ab-4de9e80ac508/deploy-status)](https://app.netlify.com/projects/oluwajolasun-v3/deploys)
+
 Personal portfolio website reflecting my career pivot from Full Stack Software Development to **IT Support & Infrastructure**.
 
 ## About
@@ -34,9 +36,9 @@ My previous portfolio and dev projects are still available at [v2.oluwajolasun.c
 
 | Version | Focus | URL |
 |---------|-------|-----|
-| v1 | HTML/CSS/JS portfolio | v1.oluwajolasun.com |
-| v2 | Full Stack Developer (React + Tailwind) | v2.oluwajolasun.com |
-| v3 | IT Support & Infrastructure (current) | oluwajolasun.com |
+| v1 | HTML/CSS/JS portfolio | [v1.oluwajolasun.com](https://v1.oluwajolasun.com) |
+| v2 | Full Stack Developer (React + Tailwind) | [v2.oluwajolasun.com](https://v2.oluwajolasun.com) |
+| v3 | IT Support & Infrastructure (current) | [oluwajolasun.com](https://oluwajolasun.com) |
 
 ## Contact
 
