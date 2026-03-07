@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="footer">
-      <p>© 2026 DEVELOPER AND DESIGNED BY OLUWAJOLASUN 👨🏾‍💻.</p>
+      <p>DEVELOPED AND DESIGNED BY OLUWAJOLASUN 👨🏾‍💻. © 2026</p>
       <p
         style={{
           color: "var(--accent)",
