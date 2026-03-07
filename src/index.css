@@ -66,7 +66,7 @@ body::before {
   border-bottom: 1px solid var(--border);
 
 }
-.nav-logo { font-family: var(--mono); font-size: 1.9rem; color: var(--accent); letter-spacing: 0.1em; }
+.nav-logo { font-family: var(--mono); font-size: 1.9rem; color: var(--accent); letter-spacing: 0.1em; font-weight: 600;}
 .nav-links { display: flex; gap: 2rem; list-style: none; }
 .nav-links a {
   font-family: var(--mono); font-size: 0.72rem; color: var(--muted);
@@ -327,4 +327,35 @@ body::before {
   .contact-inner { grid-template-columns: 1fr; gap: 3rem; padding: 4rem 1.5rem; }
   .nav-links { display: none; }
   .footer { padding: 1.5rem; flex-direction: column; gap: 0.5rem; text-align: center; }
+}
+
+
+@media (max-width: 900px) {
+
+  .nav { padding: 0 1.5rem; }
+  .nav-logo { font-size: 1.6rem; } 
+  .nav-links { display: none; }
+  .nav-hamburger { display: none; }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 4.5rem 1rem 2rem;
+    height: auto;
+    gap: 2.5rem;
+  }
+  .hero h1 { font-size: clamp(3rem, 8vw, 3rem); }
+  .hero-desc { max-width: 100%; }
+  .hero-actions { flex-direction: column; }
+  .btn-primary, .btn-outline { text-align: center; justify-content: center; }
+
+    .stats-bar {
+    padding: 1.5rem;
+    gap: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .stat-number { font-size: 1.4rem; }
+  .stat-label { font-size: 0.65rem; }
+
+  
 }
