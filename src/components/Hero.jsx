@@ -21,7 +21,7 @@ const Hero = ({ data, onHover, onUnhover }) => {
               Get in Touch ↗
             </a>
             <a
-              href="/public/Oluwajolasun Jaiyesimi - Resume.pdf"
+              href="/Oluwajolasun Jaiyesimi - Resume.pdf"
               className="btn-outline"
               target="_blank"
               rel="noopener noreferrer"
