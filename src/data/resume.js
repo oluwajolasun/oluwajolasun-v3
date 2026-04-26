@@ -252,7 +252,7 @@
 // export default RESUME;
 
 const RESUME = {
-  name: "Oluwajolasun (Jolasun) Jaiyesimi",
+  name: "Oluwajolasun Jaiyesimi",
   title: "IT Support & Infrastructure Technician",
   subtitle: "Cloud Infrastructure · Networking · Security",
   location: "Calgary, Alberta, Canada",
